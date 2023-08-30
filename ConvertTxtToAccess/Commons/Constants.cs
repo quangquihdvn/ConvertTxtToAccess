@@ -23,5 +23,21 @@ namespace ConvertTxtToAccess.Commons
             public const int CHIP_LENGTH = 96;
 
         }
+
+        public class TxtToAccessFieldStartIndex
+        {
+            public const int PAN1_START = 8;
+            public const int PAN2_START = 12;
+            public const int PAN3_START = 16;
+            public const int PAN4_START = 20;
+            public const int FROM_START = 28;
+            public const int EXP_DATE_START = 34;
+            public const int NAME_START = 45;
+            public const int TRACK1_START = 178;
+            public const int TRACK2_START = 290;
+            public const int CVV2_START = 91;
+            public const int CHIP_START = 344;
+
+        }
     }
 }

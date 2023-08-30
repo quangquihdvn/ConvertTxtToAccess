@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace ConvertTxtToAccess
 {
-    public partial class Form1 : Form
+    public partial class Convert : Form
     {
-        public Form1()
+        public Convert()
         {
             InitializeComponent();
         }
-
     }
 }
